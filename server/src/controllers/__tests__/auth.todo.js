@@ -204,7 +204,7 @@ test('registering a user inserts the user into the database', async () => {
 // 3. Change submitted from `false` to `true`
 // 4. And you're all done!
 /*
-http://ws.kcd.im/?ws=Testing&e=postsController&em=
+http://ws.kcd.im/?ws=Testing&e=postsController&em=johan.c.quiroga@gmail.com
 */
 test.skip('I submitted my elaboration and feedback', () => {
   const submitted = false // change this when you've submitted!

@@ -26,7 +26,7 @@ test('calls onSubmit with the username and password when submitted', () => {
 // 3. Change submitted from `false` to `true`
 // 4. And you're all done!
 /*
-http://ws.kcd.im/?ws=Testing&e=login.step-1&em=
+http://ws.kcd.im/?ws=Testing&e=login.step-1&em=johan.c.quiroga@gmail.com
 */
 test.skip('I submitted my elaboration and feedback', () => {
   const submitted = false // change this when you've submitted!

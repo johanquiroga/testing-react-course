@@ -14,7 +14,7 @@
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
   "license": "MIT",
   "dependencies": {
-    "axios": "0.18.0",
+    "axios": "0.19.2",
     "body-parser": "1.18.2",
     "cors": "2.8.4",
     "cross-env": "5.1.3",

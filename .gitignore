@@ -18,5 +18,7 @@ dist
 /server/other/shared
 /other/configuration/calculator/cypress/videos
 /other/configuration/calculator/cypress/screenshots
+/other/configuration/calculator/cypress/integration/examples
 /other/configuration/calculator.solution/cypress/videos
 /other/configuration/calculator.solution/cypress/screenshots
+/other/configuration/calculator.solution/cypress/integration/examples

@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "webpack-dev-server --mode=development",
     "build": "webpack --mode=production",
-    "start": "serve -s dist --port 8080"
+    "start": "serve -s dist --port 8080",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
   },
   "keywords": [],
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
@@ -14,12 +16,15 @@
   "devDependencies": {
     "babel-core": "6.26.0",
     "babel-loader": "7.1.4",
+    "babel-plugin-dynamic-import-node": "1.2.0",
     "babel-plugin-transform-class-properties": "6.24.1",
     "babel-plugin-transform-object-rest-spread": "6.26.0",
     "babel-preset-env": "1.6.1",
     "babel-preset-react": "6.24.1",
     "css-loader": "0.28.11",
     "file-loader": "1.1.11",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^22.4.3",
     "serve": "6.5.5",
     "style-loader": "0.20.3",
     "webpack": "4.5.0",
